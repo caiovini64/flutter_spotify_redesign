@@ -1,5 +1,7 @@
 # Spotify redesign usando Flutter
 
+Interface feita no Figma e aplicativo desenvolvido utilizando Flutter.
+
 <img src="Spotify.jpg"  width="700"/>
 
 
