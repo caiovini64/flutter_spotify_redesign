@@ -1,4 +1,4 @@
-# Spotify redesign with Flutter
+# Spotify redesign usando Flutter
 
 <img src="Spotify.jpg"  width="700"/>
 
