@@ -32,6 +32,7 @@ dependencies:
   
 
 dev_dependencies:
+  bottom_navy_bar: ^5.4.0
   flutter_test:
     sdk: flutter
 
