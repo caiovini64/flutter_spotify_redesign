@@ -12,47 +12,6 @@ class HomePage extends StatelessWidget {
       backgroundColor: black,
       appBar: buildAppBar(),
       body: Body(),
-      bottomNavigationBar: Container(
-          decoration: BoxDecoration(
-              color: black,
-              border: Border(top: BorderSide(color: lowBlack, width: 2.0))),
-          height: 80,
-          child: Container(
-            margin: EdgeInsets.only(left: 20, right: 20),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                IconButton(
-                    icon: Icon(
-                      Icons.home,
-                      color: white,
-                      size: 28.0,
-                    ),
-                    onPressed: () {}),
-                IconButton(
-                    icon: Icon(
-                      Icons.favorite,
-                      color: white.withOpacity(0.4),
-                      size: 28.0,
-                    ),
-                    onPressed: () {}),
-                IconButton(
-                    icon: Icon(
-                      Icons.library_music,
-                      color: white.withOpacity(0.4),
-                      size: 28.0,
-                    ),
-                    onPressed: () {}),
-                IconButton(
-                    icon: Icon(
-                      Icons.album,
-                      color: white.withOpacity(0.4),
-                      size: 28.0,
-                    ),
-                    onPressed: () {})
-              ],
-            ),
-          )),
     );
   }
 

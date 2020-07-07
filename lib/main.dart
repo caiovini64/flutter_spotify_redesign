@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify/pages/home.dart';
+import 'package:spotify/pages/index.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Spotify',
-      home: HomePage(),
+      home: MyStatefulWidget(),
     );
   }
 }
